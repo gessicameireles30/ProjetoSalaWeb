@@ -2,11 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
 
-.main-menu{
-  fonte-size: 50px;
-  margin-top: 20px;
 }
 
 body {
@@ -99,6 +95,34 @@ ul {
 .dark .btn {
   background: #f4f4f4;
   color: #333;
+}
+
+
+.main-menu{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 10px;
+  font-size: 13px;
+  list-style: none;
+}
+
+
+.main-menu li a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin: 15px;
+  font-weight: bold;
+  
+}
+
+.main-menu li a:hover{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #2d35487a;
+  
 }
 
 /* Showcase */
